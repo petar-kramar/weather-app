@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="weatherApp">
+      <form id="weatherForm" class="search__Wrapper">
+        <input type="text" id="city" placeholder="Enter city name" />
+        <button id="button"><img src="slike/search.svg" alt="" /></button>
+      </form>
+      <div class="home">
+        <h2>Simple JavaScript Weather App</h2>
+        <p>Enter city name and see live weather information</p>
+        <img src="slike/weather.png" alt="" />
+      </div>
+      <div class="weather">
+        <span id="disclaimer"></span>
+        <img id="weatherIcon" src="" alt="" />
+        <h3 id="temperature"></h3>
+        <p id="weatherType"></p>
+        <p id="cityCountry"></p>
+        <p id="time"></p>
+        <div class="weather__Bottom">
+          <div class="feelsLike">
+            <img src="slike/feels-like.png" alt="" />
+            <div>
+              <h4 id="feelsLike"></h4>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="humidity">
+            <img src="slike/humidity.png" alt="" />
+            <div>
+              <h4 id="humidity"></h4>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 id="error"></h2>
+    </div>
+  </body>
+</html>
+<script src="script.js"></script>

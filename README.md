@@ -1,2 +1,2 @@
 # weather-app
-Ovdje se nalazi moja aplikacija koja prikazuje prognozu za potrebe tečaja.
+Simple HTML, CSS and JavaScript Weather Application for a course I'm teaching.
